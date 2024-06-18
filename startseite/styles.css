@@ -8,4 +8,6 @@
 body {
     font-family: 'Poppins-Regular', Poppins-Regular;
     /* Verwende die lokale Schriftart */
+        background-image: url('http://127.0.0.1:3000/startseite/Images/Group.png');
+
 }
