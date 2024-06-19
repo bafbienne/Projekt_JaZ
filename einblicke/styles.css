@@ -1,36 +1,35 @@
-
 @font-face {
     font-family: 'Poppins-Regular';
     /* Ersetze durch den Namen deiner Schriftart */
     src: local('Poppins-Regular');
     /* Verwende die lokale Schriftart */
 }
-
 body {
-    display: grid;
-    font-family: 'Poppins-Regular', Poppins-Regular;
-    /* Verwende die lokale Schriftart */
-    margin-left: 1em;
-    margin-right: 1em
+    margin: 0;
+    padding: 0;
+    font-family: poppins-regular, sans-serif;
 }
 
-h5 {
-    font-size: 12pt;
+/* Stil für die Überschrift bleibt unverändert */
+h1 {
+    margin: 40px 20px 0px 20px;
+}
+
+/* Container für die Kacheln */
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 0px 20px 20px 20px;
+    position: absolute;
 }
 
 .card {
-    margin-right: 1em;
-    margin-bottom:3em;
-    font-size: 10pt;
+    width: 100%;
 }
 
-.card img {
-    padding-top: 0.5em;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-    border-radius: 15px;
-}
-
-.card-text {
-    padding-bottom: 2em;
+/* Optional: Um sicherzustellen, dass die Bilder innerhalb der Kacheln passen */
+.card-img-top {
+    width: 100%;
+    height: auto;
 }
