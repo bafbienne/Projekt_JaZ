@@ -4,6 +4,7 @@
     src: local('Poppins-Regular');
     /* Verwende die lokale Schriftart */
 }
+
 body {
     margin: 0;
     padding: 0;
@@ -13,6 +14,7 @@ body {
 /* Stil für die Überschrift bleibt unverändert */
 h1 {
     margin: 40px 20px 0px 20px;
+    font-family: 'Poppins-Regular', Poppins-Regular;
 }
 
 /* Container für die Kacheln */
