@@ -7,3 +7,11 @@ body {
     font-family: 'Poppins-Regular', Poppins-Regular;
     /* Verwende die lokale Schriftart */
 }
+
+img {
+    width: 100%;
+}
+
+h2 {
+    margin-bottom: 4%;
+}
