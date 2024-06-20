@@ -1,11 +1,23 @@
 @font-face {
     font-family: 'Poppins-Regular';
-    /* Ersetze durch den Namen deiner Schriftart */
     src: local('Poppins-Regular');
-    /* Verwende die lokale Schriftart */
 }
 
 body {
-    font-family: 'Poppins-Regular', Poppins-Regular;
-    /* Verwende die lokale Schriftart */
+    font-family: 'Poppins-Regular', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.container {
+    margin-top: 1rem; /* Adjust this value to add space */
+    width: 100%; /* Ensure full width for responsiveness */
+}
+
+h1 {
+    font-size: 2.5rem;
 }
