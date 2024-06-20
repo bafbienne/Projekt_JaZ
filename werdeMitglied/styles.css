@@ -1,9 +1,16 @@
-@font-face {
-    font-family: 'Poppins-Regular';
-    src: local('Poppins-Regular');
-}
-
 body {
     font-family: 'Poppins-Regular', Poppins-Regular;
-    /* Verwende die lokale Schriftart */
+}
+
+#membership-section img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #000; /* Optional: Add border for better visibility */
+    border-radius: 8px; /* Optional: Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for depth */
+    transition: transform 0.2s; /* Optional: Add transition for hover effect */
+}
+
+#membership-section img:hover {
+    transform: scale(1.05); /* Optional: Add zoom effect on hover */
 }
