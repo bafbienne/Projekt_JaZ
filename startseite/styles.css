@@ -1,6 +1,8 @@
 @font-face {
     font-family: 'Poppins-Regular';
+    /* Ersetze durch den Namen deiner Schriftart */
     src: local('Poppins-Regular');
+    /* Verwende die lokale Schriftart */
 }
 
 body {
