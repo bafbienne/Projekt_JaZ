@@ -1,11 +1,27 @@
 @font-face {
     font-family: 'Poppins-Regular';
-    /* Ersetze durch den Namen deiner Schriftart */
     src: local('Poppins-Regular');
-    /* Verwende die lokale Schriftart */
 }
 
 body {
-    font-family: 'Poppins-Regular', Poppins-Regular;
-    /* Verwende die lokale Schriftart */
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather', serif;
+}
+
+#membership-section {
+    max-width: 600px;
+    margin: auto;
+}
+
+#membership-section h2, #membership-section h3 {
+    font-family: 'Merriweather', serif;
+}
+
+#send-button {
+    transition: background-color 0.3s, color 0.3s;
 }
