@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Header Layout</title>
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+            <a href="https://zjt.ch/">
+                <img src="Images/Links.png" alt="Left Image">
+            </a>
+        </div>
+        <div class="right">
+            <div class="top">
+                <a href="https://i45.ch/">
+                    <img src="Images/rechtsoben.png" alt="Top Right Image">
+                </a>
+            </div>
+            <div class="bottom">
+                <a href="https://jaz-zug.ch/">
+                    <img src="Images/rechtsunten.png" alt="Bottom Right Image">
+                </a>
+            </div>
+            <div class="burger-menu">
+                <div class="menu-icon-wrapper">
+                    <div class="menu-icon" onclick="toggleDropdown()">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="https://site1.com">Option 1</a>
+                    <a href="https://site2.com">Option 2</a>
+                    <a href="https://site3.com">Option 3</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <script>
+        function toggleDropdown() {
+            document.querySelector('.burger-menu').classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

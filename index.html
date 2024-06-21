@@ -19,24 +19,38 @@
 
 
 <!-- Header Section -->
-<header class="position-relative">
-    <img src="./startseite/images/header_pic.png" alt="Header Image" class="img-fluid w-100">
-    <button class="navbar-toggler position-absolute top-0 end-0 m-3" type="button" data-bs-toggle="collapse"
-        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="link-to-page1.html">Page 1</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="link-to-page2.html">Page 2</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="link-to-page3.html">Page 3</a>
-            </li>
-        </ul>
+<header class="header">
+    <div class="left">
+        <a href="https://zjt.ch/">
+            <img src="../Header and Footer/Images/Links.png" alt="Left Image">
+        </a>
+    </div>
+    <div class="right">
+        <div class="top">
+            <a href="https://i45.ch/">
+                <img src="../Header and Footer/Images/rechtsoben.png" alt="Top Right Image">
+            </a>
+        </div>
+        <div class="bottom">
+            <a href="https://jaz-zug.ch/">
+                <img src="../Header and Footer/Images/rechtsunten.png" alt="Bottom Right Image">
+            </a>
+        </div>
+        <div class="burger-menu"> 
+            <div class="menu-icon-wrapper">
+                <div class="menu-icon" onclick="toggleDropdown()">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="../index.html">Startseite</a>
+                <a href="./einblicke/einblicke.html">Einblicke</a>
+                <a href="./hertiJugendtreff/hertiJugendtreff.html">Herti Jugendtreff</a>
+                <a href="./werdeMitglied/werdeMitglied.html">Werde Mitglied</a>
+            </div>
+        </div>
     </div>
 </header>
 <!-- End Header Section -->
@@ -89,5 +103,12 @@
             </div>
         </div>
     </section>
+    <!--Scrpit-->
+    <script>
+        function toggleDropdown() {
+            document.querySelector('.burger-menu').classList.toggle('active');
+        }
+    </script>
+    <!--Scrpit Ende-->
 </body>
 </html>

@@ -21,6 +21,42 @@
 </head>
 
 <body>
+    <header class="header">
+        <div class="left">
+            <a href="https://zjt.ch/">
+                <img src="../Header and Footer/Images/Links.png" alt="Left Image">
+            </a>
+        </div>
+        <div class="right">
+            <div class="top">
+                <a href="https://i45.ch/">
+                    <img src="../Header and Footer/Images/rechtsoben.png" alt="Top Right Image">
+                </a>
+            </div>
+            <div class="bottom">
+                <a href="https://jaz-zug.ch/">
+                    <img src="../Header and Footer/Images/rechtsunten.png" alt="Bottom Right Image">
+                </a>
+            </div>
+            <div class="burger-menu">
+                <div class="menu-icon-wrapper">
+                    <div class="menu-icon" onclick="toggleDropdown()">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="../index.html">Startseite</a>
+                    <a href="../einblicke/einblicke.html">Einblicke</a>
+                    <a href="../hertiJugendtreff/hertiJugendtreff.html">Herti Jugendtreff</a>
+                    <a href="./werdeMitglied.html">Werde Mitglied</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    
     <section id="membership-section" class="container my-5">
         <h2>Werde Mitglied</h2>
         <form>
@@ -52,6 +88,12 @@
             </a>
         </div>
     </section>
+
+    <script>
+        function toggleDropdown() {
+            document.querySelector('.burger-menu').classList.toggle('active');
+        }
+    </script>
 </body>
 
 </html>

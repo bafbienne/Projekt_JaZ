@@ -13,6 +13,41 @@
 <body>
 
     <!--DA CHUNT DE HEADER-->
+    <header class="header">
+        <div class="left">
+            <a href="https://zjt.ch/">
+                <img src="../Header and Footer/Images/Links.png" alt="Left Image">
+            </a>
+        </div>
+        <div class="right">
+            <div class="top">
+                <a href="https://i45.ch/">
+                    <img src="../Header and Footer/Images/rechtsoben.png" alt="Top Right Image">
+                </a>
+            </div>
+            <div class="bottom">
+                <a href="https://jaz-zug.ch/">
+                    <img src="../Header and Footer/Images/rechtsunten.png" alt="Bottom Right Image">
+                </a>
+            </div>
+            <div class="burger-menu">
+                <div class="menu-icon-wrapper">
+                    <div class="menu-icon" onclick="toggleDropdown()">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="../index.html">Startseite</a>
+                    <a href="./einblicke.html">Einblicke</a>
+                    <a href="../hertiJugendtreff/hertiJugendtreff.html">Herti Jugendtreff</a>
+                    <a href="../werdeMitglied/werdeMitglied.html">Werde Mitglied</a>
+                </div>
+            </div>
+        </div>
+    </header>
+     <!--ENDI HEADER-->
 
     <!--Seitentitel-->
     <h1>Einblicke</h1>
@@ -46,7 +81,16 @@
             </div>
         </div>
     </div>
-
+    
     <!--DA CHUNT DE FOOTER-->
+    <!--ENDI FOOTER-->
+
+    <!--SCRIPT-->
+    <script>
+        function toggleDropdown() {
+            document.querySelector('.burger-menu').classList.toggle('active');
+        }
+    </script>
+    <!--ENDI SCRIPT-->
 </body>
 </html>
