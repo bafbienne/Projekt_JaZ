@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     color: rgb(0, 0, 0);
     box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
-    z-index: 0; /* Ensure this section is behind the dropdown */
+    z-index: 0; 
 }
 
 #event-section .overlay {
