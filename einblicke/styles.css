@@ -42,7 +42,9 @@ body, html {
 .header {
     display: flex;
     width: 100%;
+    
 }
+
 .left {
     width: 50%;
     height: 150px;
@@ -127,3 +129,4 @@ img {
 .burger-menu.active .dropdown {
     display: block;
 }
+

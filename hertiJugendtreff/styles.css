@@ -118,3 +118,46 @@ img {
 h1 {
     text-align: center;
 }
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding-right: 10px;
+}
+.FotterTitel {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.FotterTitel img {
+    width: 5%;
+}
+
+.footerText {
+    font-weight: bold;
+    padding-left: 5px;
+    padding-top: 15px;
+}
+
+.copyright {
+    color: lightgray;
+    padding-left: 3%;
+}
+
+footer nav {
+    padding-left: 3%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2%;
+
+}
+
+footer nav a {
+    color: black;
+    text-decoration: none;
+    padding-bottom: 5%;
+}
